@@ -26,7 +26,7 @@ bool stringComplete = false;  // whether the string is complete
 
 void setup() 
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   if (!manager.init())
     Serial.println("init failed");
   // Defaults after init are 2.402 GHz (channel 2), 2Mbps, 0dBm
