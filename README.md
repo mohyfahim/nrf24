@@ -6,7 +6,7 @@
 
 **nrf24_server**: contains code that wait for a message. catches it and echoes it on its serial.
 
-## Ack methodes without Mesh Layer
+## Ack methodes without Router Layer
 
 This folder contains code that used Address for sending and receiving data (BROADCAST_ADDRESS can be used). Also they use ACK methodes for sending data.
 
@@ -16,11 +16,11 @@ This folder contains code that used Address for sending and receiving data (BROA
 
 **nrf24_reliable_datagram_server**: this module creates a listener that after receiving the message, sends its ACK to the sender.
 
-## ACK methods with Mesh layer
+## ACK methods with Router Layer
 
-This folder contains codes that used address for sending and receiving data by forming a mesh.
+This folder contains codes that used address for sending and receiving data by forming a Routing table.
 
-Here, the mesh structure is fixed and Hard coded.
+Here, the Routing structure is fixed and Hard coded.
 
 We set three addresses (1,2,3) for three nodes and the mesh graph is like this:
 
